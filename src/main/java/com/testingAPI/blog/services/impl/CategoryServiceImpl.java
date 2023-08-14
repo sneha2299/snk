@@ -13,6 +13,8 @@ import com.testingAPI.blog.payload.CategoryDto;
 import com.testingAPI.blog.repository.CategoryRepo;
 import com.testingAPI.blog.services.CategoryService;
 
+import jakarta.annotation.Resource;
+
 @Service
 public class CategoryServiceImpl implements CategoryService {
 
